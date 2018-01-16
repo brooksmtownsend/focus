@@ -1,0 +1,60 @@
+@font-face {
+  font-family: comfortaa;
+  src: url('Comfortaa_Regular.ttf');
+}
+
+html {
+  font-family: comfortaa;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #dfdfdf;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+div {
+  font-size: 4vw;
+  padding: 10px;
+}
+
+div#page {
+  padding: 5vw;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
+
+div#top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div#bottom {
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+div#left {
+  width: 43vw;
+}
+
+div#right {
+  width: 30vw;
+  font-size: 15vw;
+}
+
+input#work {
+  font-family: comfortaa;
+  width: 85%;
+  font-size: 4vw;
+}
